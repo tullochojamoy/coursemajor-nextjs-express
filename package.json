@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "preInstall": "npm install --legacy-peer-deps",
     "dev": "node server/server.js",
     "build": "next build",
     "start": "node server/server.js",
