@@ -1,8 +1,6 @@
 {
     "version": 2,
-    "scripts": {
-        "preInstall": "npm install --legacy-peer-deps"
-    },
+    "installCommand": "npm install --legacy-peer-deps",
     "builds": [
         {
             "src": "./server/server.js",
